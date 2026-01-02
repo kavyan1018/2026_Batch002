@@ -1,0 +1,48 @@
+dev -> 
+
+    1. web development 
+            -> Forntend development
+                    -> HTML, css, JS, 
+
+    2. mobile app development
+            -> backend development
+                -> python
+                -> Java
+
+    3. database management 
+            -> SQL
+            -> PLSQL
+
+-------------------------------------------
+
+HTML -> hyper text markup lang 
+
+version -> html 5
+2014
+
+
+css -> for the styling the HTML pages
+
+----------------------------------------------
+
+-> file_name.c
+
+-> File_name.html
+
+
+--------------------------------------------
+
+.html 
+
+.htm
+
+
+HTML 
+
+    -> tags : open and close tag 
+        -> <html> -> open tag
+            </html> -> close tag 
+
+    <br> --> as a Self Closing tag 
+
+
