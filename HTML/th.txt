@@ -46,3 +46,17 @@ HTML
     <br> --> as a Self Closing tag 
 
 
+<!DOCTYPE html>   --> Document type html
+<html lang="en"> --> in html we use English
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  --> Heading part 
+</head>
+
+
+<body>
+        // we write here entire code     
+</body>
+
+</html>
