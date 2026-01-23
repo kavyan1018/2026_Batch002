@@ -23,12 +23,20 @@ version -> html 5
 
 css -> for the styling the HTML pages
 
+Static Websites : 
+Daynamic Websites :
+
 ----------------------------------------------
 
 -> file_name.c
 
 -> File_name.html
 
+-> File_name.py
+
+-> File_name.java
+
+-> File_name.cpp
 
 --------------------------------------------
 
@@ -42,6 +50,9 @@ HTML
     -> tags : open and close tag 
         -> <html> -> open tag
             </html> -> close tag 
+
+            <tag_name>  -> open tag
+            </tag_name> -> Closing tag
 
     <br> --> as a Self Closing tag 
 
