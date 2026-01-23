@@ -60,7 +60,7 @@ HTML
 <!DOCTYPE html>   --> Document type html
 <html lang="en"> --> in html we use English
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> UTF-8 -> Unicode Transformation Formate  -> 8 - bit
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>  --> Heading part 
 </head>
