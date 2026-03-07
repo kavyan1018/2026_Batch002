@@ -1,0 +1,44 @@
+css -> cascading style sheets -> 1994
+
+CSS3 -> 2011 
+
+why we use CSS ?
+-> for the styling of the web page / web layout / web design
+
+-> color, fonts , layout, background, animation, transition, etc
+
+
+-> HTML Creates structure of the web page but CSS is used to design the web page 
+
+
+div , span , id , class
+
+div -> block element -> takes full width of the page
+span -> inline element -> takes only the required width
+
+
+id -> unique identifier for an element 
+class -> can be used for multiple elements
+
+
+way's ti write CSS :
+    -> inline CSS : in the HTML element using the style attribute
+    -> Internal CSS : head and body section of the HTML document using the style tag
+    -> External CSS : separate CSS file with .css extension and link it to the HTML document using the link tag in the head section
+
+
+
+html -> .html 
+c -> .c
+robo -> .ino
+
+css -> .css
+
+
+
+priority 
+    1. tag
+        |
+    2. class
+        |
+    3. id 
