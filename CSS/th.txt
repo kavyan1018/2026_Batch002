@@ -21,7 +21,7 @@ id -> unique identifier for an element
 class -> can be used for multiple elements
 
 
-way's ti write CSS :
+way's to write CSS :
     -> inline CSS : in the HTML element using the style attribute
     -> Internal CSS : head and body section of the HTML document using the style tag
     -> External CSS : separate CSS file with .css extension and link it to the HTML document using the link tag in the head section
