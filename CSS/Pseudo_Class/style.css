@@ -1,0 +1,44 @@
+a{
+    text-decoration: none;
+}
+
+.social-links{
+    font-size: 38px;
+}
+
+/* Pseudo-classes  - Font family 
+
+    hover : when the mouse pointer is over the element
+    active : when the element is being activated (e.g., clicked on)
+    visited : when the link has been visited
+    link : when the link has not been visited
+*/
+
+.social-links:hover {
+
+    color: green;
+    font-size: 42px;
+
+}
+
+.social-links:active{
+    color: goldenrod;
+    background-color: black;
+}
+
+.social-links:visited{
+    color: gray;
+}
+
+
+.site-title:active, .sub-title:active{
+    color: goldenrod;
+    background-color: black;   
+
+}
+
+
+.site-title:hover, .sub-title:hover{
+
+    color: brown;
+}
