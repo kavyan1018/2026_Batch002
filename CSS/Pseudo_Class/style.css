@@ -1,8 +1,11 @@
-a{
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Playwrite+DK+Uloopet+Guides&display=swap');
+
+
+a {
     text-decoration: none;
 }
 
-.social-links{
+.social-links {
     font-size: 38px;
 }
 
@@ -21,24 +24,59 @@ a{
 
 }
 
-.social-links:active{
+.social-links:active {
     color: goldenrod;
     background-color: black;
 }
 
-.social-links:visited{
+.social-links:visited {
     color: gray;
 }
 
 
-.site-title:active, .sub-title:active{
+.site-title:active,
+.sub-title:active {
     color: goldenrod;
-    background-color: black;   
+    background-color: black;
 
 }
 
 
-.site-title:hover, .sub-title:hover{
+.site-title:hover,
+.sub-title:hover {
 
     color: brown;
+}
+
+
+/* font family  */
+
+#google {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#facebook {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#twitter {
+    font-family: "Bitcount Prop Single Ink", system-ui;
+    font-optical-sizing: auto;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0,
+        "SZP1" 0,
+        "SZP2" 0,
+        "XPN1" 0,
+        "XPN2" 0,
+        "YPN1" 0,
+        "YPN2" 0;
+}
+
+#instagram {
+    font-family: "Playwrite DK Uloopet Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
