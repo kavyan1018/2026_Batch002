@@ -1,0 +1,12 @@
+body{
+    background-image: url('./image.png');
+
+    /* background-size: auto;   by default  */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 1526px 700px; */
+    background-size: 100vw 100vh;
+    /* background-size: 350px 150px; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
