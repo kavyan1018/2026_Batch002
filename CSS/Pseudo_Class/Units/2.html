@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    /* Ignor the above code for now */
+
+    img{
+
+        /* width: 1513px; */
+
+        /* vw : view width
+        & vh : view height
+        */
+
+        width: 100vw;
+        /* width: 50vw; */
+        /* width: 120vw; */
+
+        /* height: 600px; */
+        height: 100vh;
+    }
+
+    .outer{
+        background-color: yellow;
+        height: 500px;
+        width: 1200px;
+    }
+
+    .inner{
+        background-color: red;
+        height: 350px;
+        width: 90%;
+        /* width: 90vw; */
+    }
+
+    .inner-most{
+
+        background-color: black;
+        /* website name : Color Hunt */
+        /* red = 0 to 255 */
+        /* background-color: rgb(155, 213, 78); */
+        /* background-color: #FBF6F6; */
+        /* background-color: rgba(100, 243, 68, 0.5); */
+        
+        height: 200px;
+        width: 80%;
+
+
+
+    }
+
+    a{
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        width: 266px;
+        height: 100vh;
+
+        /* height or width don't apply on inline elements excpet button and img */
+    }
+</style>
+<body>
+    
+     <!-- <img src="./image.png" alt=""> -->
+    <div class="outer">
+        <br><br><br>
+        <div class="inner">
+            <br><br><br>
+            <div class="inner-most">
+                <br><br><br><br>
+                <a href="#">Click me</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
