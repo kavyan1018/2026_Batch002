@@ -1,0 +1,57 @@
+a {
+    text-decoration: none;
+}
+
+.social-links {
+    font-size: 38px;
+}
+
+
+/* Pseudo-classes  - Font family 
+
+    hover : when the mouse pointer is over the element
+    active : when the element is being activated (e.g., clicked on)
+    visited : when the link has been visited
+    link : when the link has not been visited
+*/
+
+
+.social-links:hover {
+    color: red;
+    font-size: 48px;
+}
+
+.social-links:active {
+    color: honeydew;
+    background-color: darkcyan;
+}
+
+.social-links:visited {
+    color: gray;
+}
+
+.social-links:link {
+    color: black;
+}
+
+
+.social-links {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.site-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#instagram {
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+
+    font-size: 40px;
+    font-weight: 700;
+    
+}
