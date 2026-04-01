@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    /* h1{
+        text-align: center;
+    } */
+
+    /* #i{
+        background-color: orange;
+    }
+
+    #love{
+        background-color: white;
+    }
+
+    #india{
+        background-color: green;
+    } */
+
+
+    /* after & before  -> pseudo elements*/
+    
+    h1{
+        background-color: white;
+        width: 200px;
+        text-align: center;
+    }
+    h1::before{
+        content: "I";
+        background-color: orange;
+        display: block;
+    }
+
+
+    h1::after{
+        content: "Inida";
+        display: block;
+        background-color: green;
+    }
+
+</style>
+
+<body>
+
+    <!-- <h1 id="i">I</h1> -->
+    <h1 id="love">Love</h1>
+    <!-- <h1 id="india">Inida</h1> -->
+</body>
+
+</html>
