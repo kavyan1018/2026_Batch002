@@ -6,6 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+
+    /* CSS Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container{
+        border: solid red;
+        display: flex;
+        height: 100vh;
+        /* its works only with flex */
+        /* justify-content: center; */
+        /* justify-content: right;  */
+        /* justify-content: left;  */
+        /* justify-content: space-between;  */
+        /* justify-content: space-evenly;  */
+        /* justify-content: space-around;  */
+
+        /* align-items: center; */
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+
+        /* flex-direction: column; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row; */
+
+
+        /* align-items: center;
+        align-items: flex-start;
+        align-items: flex-end;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly; */
+
+    }
+
+    .boxes{
+        border: solid green;
+        height: 200px;
+        width: 200px;
+        /* margin: 0 1rem; */
+    }
+
+    #box1{
+        /* flex-shrink: 1; default value */
+        flex-shrink: 0;
+    }
+
+    #box2{
+        /* flex-shrink: 2; */
+        flex-grow: 3;
+        order: 1;
+    }
+
+    #box3{
+        flex-shrink: 3;
+    }
+
+    #box4{
+        flex-grow: 1;
+    }
+
+    #box5{
+        flex-grow: 2;
+        order: 3;
+    }
+</style>
 
 <body>
 
