@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-container{
+    border: solid red;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.social-icon{
+    font-size: 1.5rem;
+}
+
+
+.facebook{
+    color: blue;
+}
+
+/* card class */
+.card{
+
+    border: solid;
+    width: 300px;
+    margin: 2rem auto;
+    /* position: relative; */
+}
+
+.upper-card{
+    position: relative;
+    overflow: hidden;
+}
+
+.best-seller{
+    background-color: #FF9457;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    padding: 0.2rem 1.1rem;
+    color: white;
+    font-size: 14px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.offer{
+    background-color: #FF9457;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: -12px;
+    top: -12px;
+
+    font-family: "Red Hat Displat", monospace;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+    padding-left: 9px;
+    line-height: 1em;
+}
+
+
+.product-img{
+    width: 100%;
+}
+
